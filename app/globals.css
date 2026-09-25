@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #efece4;
+  --muted: #8d887e;
+  --surface: #0c0c0c;
+  --surface-2: #141414;
+  --border: #2c2a26;
+  --danger: #e36a5d;
+  --ok: #9dbea6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-danger: var(--danger);
+  --color-ok: var(--ok);
+  --font-sans: var(--font-manrope);
+  --font-serif: var(--font-cormorant);
+  --font-gothic: var(--font-gothic);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.font-gothic {
+  font-family: var(--font-gothic), "UnifrakturCook", Georgia, serif;
+}
+
+select.form-select {
+  color: #efece4;
+  background-color: transparent;
+}
+
+select.form-select option {
+  color: #111;
+  background-color: #fff;
+}
+
+.web-fade {
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(255, 255, 255, 0.06), transparent 55%),
+    #050505;
+}
