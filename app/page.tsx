@@ -17,7 +17,7 @@ export default function Home() {
           priority
           className="mt-6 h-56 w-auto md:h-72"
         />
-        <h1 className="font-gothic mt-6 text-3xl md:text-5xl">Spun in the dark</h1>
+        <h1 className="font-gothic mt-6 text-3xl md:text-5xl">Dark streetwear</h1>
         <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
           Limited streetwear from Algeria. Shop the drop, pay on delivery.
         </p>
